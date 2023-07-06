@@ -1,1 +1,11 @@
 /* Aquí van tus estilos */
+@import "./core/reset";
+@import "./layout/navbar";
+@import "./layout/main";
+
+.full-background {
+    min-height: 100vh;
+    background: url(../../src/images/perro.jpg) no-repeat center top #f7f7f7;
+    background-size: cover;
+}
+
