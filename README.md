@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+ # Pet Adoption Application
+
+This project aims to create a much easier process and consolidate all the information for human adoption requests. The objective is to facilitate both animal shelters and individuals in the adoption process, making it efficient and rigorous by filtering needs and connecting animals with their best matches.
+
+The first phase involves designing the entire website and creating a user-friendly form that adapts to all possible situations.
+
+The second phase is to create the database and establish connections to develop a system that can make appropriate matches.
+
+The third phase would involve implementing a login system for both animal shelters and adoption applicants and linking their information to the database of adoption requests and available pets.
+
+
+
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
