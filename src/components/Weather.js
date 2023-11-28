@@ -1,6 +1,6 @@
-import '../styles/layout/_quienesSomos.scss';
+import '../styles/layout/_weather.scss';
 
-function QuienesSomos({ weather, locate, lifting, onSubmit }) {
+function Weather({ weather, locate, lifting, onSubmit }) {
 
     const handleSubmit = (ev) => {
         ev.preventDefault();
@@ -13,8 +13,8 @@ function QuienesSomos({ weather, locate, lifting, onSubmit }) {
     }
 
     return (
-        <>
-            <div>
+        < div className='page'>
+            <div className='container'>
                 <form className='form' onSubmit={handleSubmit}>
                     <input
                         type="text"
@@ -25,12 +25,12 @@ function QuienesSomos({ weather, locate, lifting, onSubmit }) {
                     <button type="submit">Obtener Clima</button>
                 </form>
             </div>
-            <div className='container'>
+            <div className='container2'>
                 <h1 className='title'>{locate}</h1>
-                <span className='span'>{weather}</span>
+                <span className='span'>{weather}*</span>
             </div>
-        </>
+        </div>
     )
 }
 
-export default QuienesSomos;
+export default Weather;
